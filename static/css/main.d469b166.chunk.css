@@ -1,2 +1,0 @@
-nav{position:absolute;width:calc(100vw - 50px);top:0;left:0;height:100px;padding:0 25px;background-color:#272727;display:flex;flex-flow:row nowrap;align-items:center;justify-content:space-between}nav a{color:#bf95f0;font-size:30px;-webkit-user-select:none;-ms-user-select:none;user-select:none;text-decoration:none}#icons{display:flex;flex-flow:row nowrap}#icons img{margin-left:64px;cursor:pointer;-webkit-user-drag:none}
-/*# sourceMappingURL=main.d469b166.chunk.css.map */
