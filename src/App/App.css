@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-image: linear-gradient(154.8deg, #00b7ff, #67e1bf, #fff07c);
+  height: 300vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#profilePic {
+  width: max(15vmin, 50px);
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+#aboutMe {
+  display: flex;
+  padding: 100px;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+#meDescription {
+  width: 50vmin;
+  text-align: center;
+}
