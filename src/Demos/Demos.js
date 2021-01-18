@@ -51,27 +51,65 @@ export default class Demos extends React.Component {
     }
   };
 
+  handleAny = (num) => {
+    let cn = this.state.cardNum;
+    if (typeof this.timeout == "undefined" && num < cn) {
+      document.getElementsByTagName("section")[0].classList = ["enter2"];
+      this.timeout = setTimeout(() => {
+        this.setState({
+          cardNum: num,
+        });
+        document.getElementsByTagName("section")[0].classList = ["leave2"];
+        this.timeout = undefined;
+      }, 1000);
+    } else if (num > cn) {
+      document.getElementsByTagName("section")[0].classList = ["leave"];
+      this.timeout = setTimeout(() => {
+        this.setState({
+          cardNum: num,
+        });
+        document.getElementsByTagName("section")[0].classList = ["enter"];
+        this.timeout = undefined;
+      }, 1000);
+    }
+  };
+
   render() {
     return (
       <main>
-        <button onClick={this.handlePrev} className="demoNav">
-          ᐸ
-        </button>
-        <DemoCard
-          image={
-            images.find((img) => {
-              if (img.default.includes(sites[this.state.cardNum].thumbnail)) {
-                return true;
-              } else {
-                return false;
-              }
-            }).default
-          }
-          {...sites[this.state.cardNum]}
-        />
-        <button onClick={this.handleNext} className="demoNav">
-          ᐳ
-        </button>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <button onClick={this.handlePrev} className="demoNav">
+            ᐸ
+          </button>
+          <DemoCard
+            image={
+              images.find((img) => {
+                if (img.default.includes(sites[this.state.cardNum].thumbnail)) {
+                  return true;
+                } else {
+                  return false;
+                }
+              }).default
+            }
+            {...sites[this.state.cardNum]}
+          />
+          <button onClick={this.handleNext} className="demoNav">
+            ᐳ
+          </button>
+        </div>
+        <nav>
+          {sites.map(({ name }, i) => (
+            <button
+              onClick={() => this.handleAny(i)}
+              title={name}
+              className="navButton"
+              style={{
+                background: this.state.cardNum === i ? "black" : "gray",
+              }}
+              key={i}
+            ></button>
+          ))}
+        </nav>
       </main>
     );
   }

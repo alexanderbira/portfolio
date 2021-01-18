@@ -3,6 +3,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-flow: column nowrap;
 }
 
 .demoNav {
@@ -27,4 +28,18 @@ main {
 
 .demoNav:active {
   background: rgb(118, 24, 24);
+}
+
+nav {
+  display: flex;
+  margin-top: 50px;
+}
+
+.navButton {
+  margin: 5px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
 }
