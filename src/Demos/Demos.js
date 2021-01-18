@@ -104,7 +104,7 @@ export default class Demos extends React.Component {
               title={name}
               className="navButton"
               style={{
-                background: this.state.cardNum === i ? "black" : "gray",
+                background: this.state.cardNum === i ? "black" : "transparent",
               }}
               key={i}
             ></button>
