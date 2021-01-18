@@ -1,0 +1,26 @@
+header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#profilePic {
+  width: max(15vmin, 50px);
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+#aboutMe {
+  display: flex;
+  padding: 100px;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+#meDescription {
+  width: 50vmin;
+  text-align: center;
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Random Daily Fact",
+    "thumbnail": "rdf",
+    "url": "https://www.randomdailyfact.com/",
+    "description": "A website that displays a new fact every day with nice styling. You can enable notifications so that every day, it reminds you to look at the new fact and shows you a new fact. It is also a PWA, so you can install it on any platform as an app.",
+    "importance": 0.75
+  },
+  {
+    "name": "Pixel Art Maker",
+    "thumbnail": "pxart",
+    "url": "https://alexanderbira.github.io/Pixel-Art-Maker/",
+    "description": "A website to make pixel art with. You can use different grid dimensions, tools (like line, eraser, fill), colour picker (RGBAHSL, CSS input, native picker) with colour storage. You can export as a .pxart file to edit later, or a PNG.",
+    "importance": 0.75
+  },
+  {
+    "name": "Cookie Clicker Clone",
+    "thumbnail": "clicker",
+    "url": "https://clicker.alexanderbirabe.repl.co/",
+    "description": "My copy of <a href='https://orteil.dashnet.org/cookieclicker/' target='_blank'>the original Cookie Clicker</a>. All the visuals are stolen from there, but the logic and styling was made by me.",
+    "importance": 0.3
+  },
+  {
+    "name": "Circles Animation",
+    "thumbnail": "circles",
+    "url": "https://circles.alexanderbirabe.repl.co/",
+    "description": "An interactive display of patterns within easing. Generate circles swaying side to side, and adjust / export the settings",
+    "importance": 0.3
+  },
+  {
+    "name": "Wealth Comparer",
+    "thumbnail": "wealth",
+    "url": "https://wealth-compare.alexanderbirabe.repl.co/",
+    "description": "See how long it would take you to have as much money as the richest people, with a reference timescale. You can type in a yearly salary or have it calculated. Available in English, French, and Spanish. Uses the Forbes 400 API.",
+    "importance": 0.4
+  },
+  {
+    "name": "Jump Game",
+    "thumbnail": "jump",
+    "url": "https://jump.alexanderbirabe.repl.co/",
+    "description": "A game where you jump over / duck under blocks to get as far as you can. You can play as different sprites. It gets progressively harder in many ways.",
+    "importance": 0.4
+  },
+  {
+    "name": "Spinning Arcs",
+    "thumbnail": "arcs",
+    "url": "https://arcs.alexanderbirabe.repl.co/",
+    "description": "Generate nice animations of arcs spinning. You can control the speed, colour, size, and more.",
+    "importance": 0.35
+  },
+  {
+    "name": "Tic Tac Toe",
+    "thumbnail": "xo",
+    "url": "https://ox.alexanderbirabe.repl.co/",
+    "description": "Play tic tac toe either against a computer with 4 difficulty levels ranging from very easy to impossible, against a friend on the same device, or create a room and share the code so your friends can play with you - even if they're not there with you.",
+    "importance": 0.7
+  },
+  {
+    "name": "Click game",
+    "thumbnail": "click",
+    "url": "https://click.alexanderbirabe.repl.co/",
+    "description": "Hit the spacebar just as the moving bar is in the green zone to get points.",
+    "importance": 0.15
+  },
+  {
+    "name": "Text to Speech",
+    "thumbnail": "tts",
+    "url": "https://tts.alexanderbirabe.repl.co/",
+    "description": "Convert some text to an MP3 file that you can download. Uses the Python gTTS module.",
+    "importance": 0.35
+  },
+  {
+    "name": "Note Taker",
+    "thumbnail": "noteTaker",
+    "url": "https://note-taker.alexanderbirabe.repl.co/",
+    "description": "Type text and hit enter for it to be saved. Can also solve mathematical expressions, and store single-lettered variables for reuse. Comes with different themes.",
+    "importance": 0.8
+  },
+  {
+    "name": "JS Tips",
+    "thumbnail": "jstips",
+    "url": "https://jst-1.alexanderbirabe.repl.co/",
+    "description": "A website filled with often overlooked features of JavaScript with a great navigation system.",
+    "importance": 0.8
+  }
+]
