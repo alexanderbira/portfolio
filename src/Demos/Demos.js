@@ -77,39 +77,42 @@ export default class Demos extends React.Component {
   render() {
     return (
       <main>
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <button onClick={this.handlePrev} className="demoNav">
-            ᐸ
-          </button>
-          <DemoCard
-            image={
-              images.find((img) => {
-                if (img.default.includes(sites[this.state.cardNum].thumbnail)) {
-                  return true;
-                } else {
-                  return false;
-                }
-              }).default
-            }
-            {...sites[this.state.cardNum]}
-          />
-          <button onClick={this.handleNext} className="demoNav">
-            ᐳ
-          </button>
+        <h1><u>Site Demos</u></h1>
+        <div style={{display: "flex", flexFlow: "column nowrap", justifyContent: "center", alignItems: "center"}}>
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <button onClick={this.handlePrev} className="demoNav">
+              ᐸ
+            </button>
+            <DemoCard
+              image={
+                images.find((img) => {
+                  if (img.default.includes(sites[this.state.cardNum].thumbnail)) {
+                    return true;
+                  } else {
+                    return false;
+                  }
+                }).default
+              }
+              {...sites[this.state.cardNum]}
+            />
+            <button onClick={this.handleNext} className="demoNav">
+              ᐳ
+            </button>
+          </div>
+          <nav>
+            {sites.map(({ name }, i) => (
+              <button
+                onClick={() => this.handleAny(i)}
+                title={name}
+                className="navButton"
+                style={{
+                  background: this.state.cardNum === i ? "black" : "transparent",
+                }}
+                key={i}
+              ></button>
+            ))}
+          </nav>
         </div>
-        <nav>
-          {sites.map(({ name }, i) => (
-            <button
-              onClick={() => this.handleAny(i)}
-              title={name}
-              className="navButton"
-              style={{
-                background: this.state.cardNum === i ? "black" : "transparent",
-              }}
-              key={i}
-            ></button>
-          ))}
-        </nav>
       </main>
     );
   }
