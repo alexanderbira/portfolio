@@ -14,13 +14,13 @@
   max-width: 40vmin;
   max-height: calc(50vh - 20px);
   margin: 10px;
-  transition-duration: .1s;
+  transition-duration: 0.1s;
   cursor: pointer;
 }
 
 .certificates img:hover {
   transform: scale(1.02);
-  transition-duration: .1s;
+  transition-duration: 0.1s;
 }
 
 footer {

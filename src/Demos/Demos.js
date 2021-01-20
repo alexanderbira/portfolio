@@ -14,12 +14,10 @@ const images = importAll(
 );
 
 var loadedimages = [];
-for(let i=0; i<images.length; i++) {
+for (let i = 0; i < images.length; i++) {
   loadedimages[i] = new Image();
   loadedimages[i].src = images[i];
 }
-
-
 
 export default class Demos extends React.Component {
   constructor(props) {
@@ -85,16 +83,32 @@ export default class Demos extends React.Component {
   render() {
     return (
       <main>
-        <h1><u>Site Demos</u></h1>
-        <div style={{display: "flex", flexFlow: "column nowrap", justifyContent: "center", alignItems: "center", marginBottom: "15vh"}}>
+        <h1>
+          <u>Site Demos</u>
+        </h1>
+        <div
+          style={{
+            display: "flex",
+            flexFlow: "column nowrap",
+            justifyContent: "center",
+            alignItems: "center",
+            marginBottom: "15vh",
+          }}
+        >
           <div style={{ display: "flex", alignItems: "center" }}>
-            <button onClick={this.handlePrev} className="demoNav" title="see previous card">
+            <button
+              onClick={this.handlePrev}
+              className="demoNav"
+              title="see previous card"
+            >
               ᐸ
             </button>
             <DemoCard
               image={
                 images.find((img) => {
-                  if (img.default.includes(sites[this.state.cardNum].thumbnail)) {
+                  if (
+                    img.default.includes(sites[this.state.cardNum].thumbnail)
+                  ) {
                     return true;
                   } else {
                     return false;
@@ -103,7 +117,11 @@ export default class Demos extends React.Component {
               }
               {...sites[this.state.cardNum]}
             />
-            <button onClick={this.handleNext} className="demoNav" title="see next card">
+            <button
+              onClick={this.handleNext}
+              className="demoNav"
+              title="see next card"
+            >
               ᐳ
             </button>
           </div>
@@ -114,7 +132,8 @@ export default class Demos extends React.Component {
                 title={name}
                 className="navButton"
                 style={{
-                  background: this.state.cardNum === i ? "black" : "transparent",
+                  background:
+                    this.state.cardNum === i ? "black" : "transparent",
                 }}
                 key={i}
               ></button>
