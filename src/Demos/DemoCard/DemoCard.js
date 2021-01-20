@@ -10,7 +10,7 @@ export default class DemoCard extends React.Component {
   render() {
     return (
       <a href={this.props.url} target="_blank" rel="noreferrer">
-        <section>
+        <section className="demo">
           <img src={this.props.image} alt="thumbnail" />
           <article>
             <h2>{this.props.name}</h2>

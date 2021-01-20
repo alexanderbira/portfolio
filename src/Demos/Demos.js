@@ -13,6 +13,14 @@ const images = importAll(
   require.context("./thumbnails/", false, /\.(png|jpe?g|svg)$/)
 );
 
+var loadedimages = [];
+for(let i=0; i<images.length; i++) {
+  loadedimages[i] = new Image();
+  loadedimages[i].src = images[i];
+}
+
+
+
 export default class Demos extends React.Component {
   constructor(props) {
     super(props);
@@ -21,7 +29,7 @@ export default class Demos extends React.Component {
 
   handleNext = () => {
     if (typeof this.timeout == "undefined") {
-      document.getElementsByTagName("section")[0].classList = ["leave"];
+      document.getElementsByTagName("section")[0].classList = ["demo leave"];
       this.timeout = setTimeout(() => {
         this.setState({
           cardNum:
@@ -29,7 +37,7 @@ export default class Demos extends React.Component {
               ? 0
               : this.state.cardNum + 1,
         });
-        document.getElementsByTagName("section")[0].classList = ["enter"];
+        document.getElementsByTagName("section")[0].classList = ["demo enter"];
         this.timeout = undefined;
       }, 1000);
     }
@@ -37,7 +45,7 @@ export default class Demos extends React.Component {
 
   handlePrev = () => {
     if (typeof this.timeout == "undefined") {
-      document.getElementsByTagName("section")[0].classList = ["enter2"];
+      document.getElementsByTagName("section")[0].classList = ["demo enter2"];
       this.timeout = setTimeout(() => {
         this.setState({
           cardNum:
@@ -45,7 +53,7 @@ export default class Demos extends React.Component {
               ? this.state.cardMax
               : this.state.cardNum - 1,
         });
-        document.getElementsByTagName("section")[0].classList = ["leave2"];
+        document.getElementsByTagName("section")[0].classList = ["demo leave2"];
         this.timeout = undefined;
       }, 1000);
     }
@@ -54,21 +62,21 @@ export default class Demos extends React.Component {
   handleAny = (num) => {
     let cn = this.state.cardNum;
     if (typeof this.timeout == "undefined" && num < cn) {
-      document.getElementsByTagName("section")[0].classList = ["enter2"];
+      document.getElementsByTagName("section")[0].classList = ["demo enter2"];
       this.timeout = setTimeout(() => {
         this.setState({
           cardNum: num,
         });
-        document.getElementsByTagName("section")[0].classList = ["leave2"];
+        document.getElementsByTagName("section")[0].classList = ["demo leave2"];
         this.timeout = undefined;
       }, 1000);
     } else if (num > cn) {
-      document.getElementsByTagName("section")[0].classList = ["leave"];
+      document.getElementsByTagName("section")[0].classList = ["demo leave"];
       this.timeout = setTimeout(() => {
         this.setState({
           cardNum: num,
         });
-        document.getElementsByTagName("section")[0].classList = ["enter"];
+        document.getElementsByTagName("section")[0].classList = ["demo enter"];
         this.timeout = undefined;
       }, 1000);
     }
@@ -78,9 +86,9 @@ export default class Demos extends React.Component {
     return (
       <main>
         <h1><u>Site Demos</u></h1>
-        <div style={{display: "flex", flexFlow: "column nowrap", justifyContent: "center", alignItems: "center"}}>
+        <div style={{display: "flex", flexFlow: "column nowrap", justifyContent: "center", alignItems: "center", marginBottom: "15vh"}}>
           <div style={{ display: "flex", alignItems: "center" }}>
-            <button onClick={this.handlePrev} className="demoNav">
+            <button onClick={this.handlePrev} className="demoNav" title="see previous card">
               ᐸ
             </button>
             <DemoCard
@@ -95,7 +103,7 @@ export default class Demos extends React.Component {
               }
               {...sites[this.state.cardNum]}
             />
-            <button onClick={this.handleNext} className="demoNav">
+            <button onClick={this.handleNext} className="demoNav" title="see next card">
               ᐳ
             </button>
           </div>
