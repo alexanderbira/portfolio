@@ -83,9 +83,8 @@ export default class Demos extends React.Component {
   render() {
     return (
       <main>
-        <h1>
-          <u>Site Demos</u>
-        </h1>
+        <h1>Site Demos</h1>
+        <p>Here are some demos of websites I've made, pseudo-randomly sorted by how proud I am of them.</p>
         <div
           style={{
             display: "flex",

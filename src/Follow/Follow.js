@@ -28,9 +28,7 @@ export default class Follow extends React.Component {
   render() {
     return (
       <footer>
-        <h1>
-          <u>Follow</u>
-        </h1>
+        <h1>Follow</h1>
 
         {
           [
