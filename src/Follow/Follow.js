@@ -8,6 +8,7 @@ import rWD from "../Follow/certificates/responsive-web-design-certificate.png";
 import codepen from "../Follow/icons/codepen.svg";
 import freecodecamp from "../Follow/icons/freecodecamp.svg";
 import github from "../Follow/icons/github.svg";
+import gist from "../Follow/icons/gist.svg";
 import replit from "../Follow/icons/replit.svg";
 import stackoverflow from "../Follow/icons/stackoverflow.svg";
 
@@ -118,6 +119,13 @@ export default class Follow extends React.Component {
             rel="noreferrer"
           >
             <img src={github} className="socialIcon" alt="github" />
+          </a>
+          <a
+            href="https://gist.github.com/alexanderbira"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={gist} className="socialIcon" alt="github gist" />
           </a>
           <a
             href="https://stackoverflow.com/users/12309608/alexanderbira"

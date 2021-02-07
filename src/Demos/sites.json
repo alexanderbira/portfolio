@@ -14,13 +14,6 @@
     "importance": 0.75
   },
   {
-    "name": "Cookie Clicker Clone",
-    "thumbnail": "clicker",
-    "url": "https://clicker.alexanderbirabe.repl.co/",
-    "description": "My copy of Cookie Clicker (https://orteil.dashnet.org/cookieclicker/). All the visuals are stolen from there, but the logic and styling was made by me.",
-    "importance": 0.3
-  },
-  {
     "name": "Circles Animation",
     "thumbnail": "circles",
     "url": "https://circles.alexanderbirabe.repl.co/",
@@ -61,13 +54,6 @@
     "url": "https://click.alexanderbirabe.repl.co/",
     "description": "Hit the spacebar just as the moving bar is in the green zone to get points.",
     "importance": 0.15
-  },
-  {
-    "name": "Text to Speech",
-    "thumbnail": "tts",
-    "url": "https://tts.alexanderbirabe.repl.co/",
-    "description": "Convert some text to an MP3 file that you can download. Uses the Python gTTS module.",
-    "importance": 0.35
   },
   {
     "name": "Note Taker",
