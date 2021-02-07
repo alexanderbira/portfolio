@@ -136,7 +136,7 @@ article {
   max-width: calc(100% - 50px);
   max-height: calc(100% - 50px);
   opacity: 0.9;
-  overflow-y: scroll;
+  overflow-y: auto;
   word-wrap: break-word;
   box-sizing: border-box;
 }
