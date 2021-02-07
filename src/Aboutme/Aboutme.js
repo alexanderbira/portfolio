@@ -11,7 +11,7 @@ export default class Aboutme extends React.Component {
     return (
       <header>
         <div id="aboutMe">
-          <img id="profilePic" src="/profile.jpg" alt="" />
+          <img id="profilePic" src="/profile.webp" alt="" />
           <p id="meDescription">
             Hey, I'm Alexander,
             <br />
