@@ -1,18 +1,16 @@
 .certificates {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: space-around;
   margin-left: min(100px, 10vw);
   margin-right: min(100px, 10vw);
   height: 50vh;
-  overflow: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
   padding: 20px;
+  white-space: nowrap;
 }
 
 .certificates img {
   max-width: 40vmin;
-  max-height: calc(50vh - 20px);
+  max-height: calc(50vh - 70px);
   margin: 10px;
   transition-duration: 0.1s;
   cursor: pointer;

@@ -117,16 +117,28 @@ section.demo img {
   filter: blur(2px);
 }
 
+article h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+article p {
+  margin-bottom: 0;
+}
+
 article {
-  filter: none;
   position: absolute;
   background-color: white;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12),
     0 2px 4px -1px rgba(0, 0, 0, 0.2);
-  max-width: 25vmin;
+  max-width: calc(100% - 50px);
+  max-height: calc(100% - 50px);
   opacity: 0.9;
+  overflow-y: scroll;
+  word-wrap: break-word;
+  box-sizing: border-box;
 }
 
 a {

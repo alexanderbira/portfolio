@@ -16,9 +16,8 @@ export default class Aboutme extends React.Component {
           <img id="profilePic" src={profilePic} alt="" />
           <p id="meDescription">
             Hey, I'm Alexander and I do functional web design in my free time
-            <br />
-            I'm fairly competent in HTML, CSS, JS (ES6), React, React-Native,
-            PHP, and Python
+            <br />I code in in HTML, CSS, JS (ES6), React, React-Native, PHP,
+            and Python
           </p>
         </div>
       </header>

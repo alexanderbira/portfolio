@@ -84,7 +84,10 @@ export default class Demos extends React.Component {
     return (
       <main>
         <h1>Site Demos</h1>
-        <p>Here are some demos of websites I've made, pseudo-randomly sorted by how proud I am of them.</p>
+        <p>
+          Here are some demos of websites I've made, pseudo-randomly sorted by
+          how proud I am of them.
+        </p>
         <div
           style={{
             display: "flex",
@@ -99,6 +102,7 @@ export default class Demos extends React.Component {
               onClick={this.handlePrev}
               className="demoNav"
               title="see previous card"
+              style={{ marginRight: "10vmin" }}
             >
               ᐸ
             </button>
@@ -120,6 +124,7 @@ export default class Demos extends React.Component {
               onClick={this.handleNext}
               className="demoNav"
               title="see next card"
+              style={{ marginLeft: "10vmin" }}
             >
               ᐳ
             </button>
