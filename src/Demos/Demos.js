@@ -22,7 +22,7 @@ for (let i = 0; i < images.length; i++) {
 export default class Demos extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { cardNum: 0, cardMax: images.length - 3 };
+    this.state = { cardNum: 0, cardMax: images.length - 2 };
   }
 
   handleNext = () => {
