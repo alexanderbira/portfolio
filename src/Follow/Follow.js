@@ -1,9 +1,9 @@
 import React from "react";
 import "./Follow.css";
 
-import fEL from "../Follow/certificates/front-end-libraries-certificate.png";
-import jAADS from "../Follow/certificates/javascript-algorithms-and-data-structures-certificate.png";
-import rWD from "../Follow/certificates/responsive-web-design-certificate.png";
+import fEL from "../Follow/certificates/front-end-libraries-certificate.jpg";
+import jAADS from "../Follow/certificates/javascript-algorithms-and-data-structures-certificate.jpg";
+import rWD from "../Follow/certificates/responsive-web-design-certificate.jpg";
 
 import codepen from "../Follow/icons/codepen.svg";
 import freecodecamp from "../Follow/icons/freecodecamp.svg";

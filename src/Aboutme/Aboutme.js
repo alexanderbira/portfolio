@@ -1,8 +1,6 @@
 import React from "react";
 import "./Aboutme.css";
 
-import profilePic from "./profile.png";
-
 export default class Aboutme extends React.Component {
   constructor(props) {
     super(props);
@@ -13,7 +11,7 @@ export default class Aboutme extends React.Component {
     return (
       <header>
         <div id="aboutMe">
-          <img id="profilePic" src={profilePic} alt="" />
+          <img id="profilePic" src="/profile.jpg" alt="" />
           <p id="meDescription">
             Hey, I'm Alexander,
             <br />

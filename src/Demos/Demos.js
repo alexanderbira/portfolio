@@ -10,7 +10,7 @@ function importAll(r) {
   return r.keys().map(r);
 }
 const images = importAll(
-  require.context("./thumbnails/", false, /\.(png|jpe?g|svg)$/)
+  require.context("./thumbnails/", false, /\.jpg$/)
 );
 
 var loadedimages = [];
