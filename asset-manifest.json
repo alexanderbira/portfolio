@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5110c9a3.chunk.css",
-    "main.js": "/portfolio/static/js/main.9733aa73.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9733aa73.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.f7e37236.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f7e37236.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fed2963.js.map",
     "static/js/2.9685d296.chunk.js": "/portfolio/static/js/2.9685d296.chunk.js",
@@ -13,7 +13,6 @@
     "static/media/arcs.png": "/portfolio/static/media/arcs.3d707474.png",
     "static/media/circles.png": "/portfolio/static/media/circles.85284585.png",
     "static/media/click.png": "/portfolio/static/media/click.e594b691.png",
-    "static/media/clicker.png": "/portfolio/static/media/clicker.2b9a01a9.png",
     "static/media/codepen.02878408.svg": "/portfolio/static/media/codepen.02878408.svg",
     "static/media/freecodecamp.4c409bea.svg": "/portfolio/static/media/freecodecamp.4c409bea.svg",
     "static/media/front-end-libraries-certificate.d3a429c5.png": "/portfolio/static/media/front-end-libraries-certificate.d3a429c5.png",
@@ -31,7 +30,6 @@
     "static/media/replit.a24b1542.svg": "/portfolio/static/media/replit.a24b1542.svg",
     "static/media/responsive-web-design-certificate.a977bd21.png": "/portfolio/static/media/responsive-web-design-certificate.a977bd21.png",
     "static/media/stackoverflow.3c83c6b7.svg": "/portfolio/static/media/stackoverflow.3c83c6b7.svg",
-    "static/media/tts.png": "/portfolio/static/media/tts.7e6f40bb.png",
     "static/media/wealth.png": "/portfolio/static/media/wealth.2685e782.png",
     "static/media/xo.png": "/portfolio/static/media/xo.ec94ad2d.png"
   },
@@ -39,6 +37,6 @@
     "static/js/runtime-main.8fed2963.js",
     "static/js/2.9685d296.chunk.js",
     "static/css/main.5110c9a3.chunk.css",
-    "static/js/main.9733aa73.chunk.js"
+    "static/js/main.f7e37236.chunk.js"
   ]
 }
