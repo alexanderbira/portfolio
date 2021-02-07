@@ -15,9 +15,11 @@ export default class Aboutme extends React.Component {
         <div id="aboutMe">
           <img id="profilePic" src={profilePic} alt="" />
           <p id="meDescription">
-            Hey, I'm Alexander and I do functional web design in my free time
+            Hey, I'm Alexander,
+            <br />
+            I do functional web design in my free time.
             <br />I code in in HTML, CSS, JS (ES6), React, React-Native, PHP,
-            and Python
+            and Python.
           </p>
         </div>
       </header>
