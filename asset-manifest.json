@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.498a4514.chunk.css",
-    "main.js": "/static/js/main.fd8f5076.chunk.js",
-    "main.js.map": "/static/js/main.fd8f5076.chunk.js.map",
+    "main.js": "/static/js/main.99e4d7a3.chunk.js",
+    "main.js.map": "/static/js/main.99e4d7a3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
     "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
     "static/js/2.9685d296.chunk.js": "/static/js/2.9685d296.chunk.js",
@@ -10,29 +10,30 @@
     "index.html": "/index.html",
     "static/css/main.498a4514.chunk.css.map": "/static/css/main.498a4514.chunk.css.map",
     "static/js/2.9685d296.chunk.js.LICENSE.txt": "/static/js/2.9685d296.chunk.js.LICENSE.txt",
-    "static/media/arcs.jpg": "/static/media/arcs.2cf71468.jpg",
-    "static/media/circles.jpg": "/static/media/circles.569f2286.jpg",
-    "static/media/click.jpg": "/static/media/click.24572a43.jpg",
+    "static/media/arcs.webp": "/static/media/arcs.8163329e.webp",
+    "static/media/circles.webp": "/static/media/circles.fcce5a23.webp",
+    "static/media/click.webp": "/static/media/click.1c8d6f28.webp",
     "static/media/codepen.02878408.svg": "/static/media/codepen.02878408.svg",
     "static/media/freecodecamp.4c409bea.svg": "/static/media/freecodecamp.4c409bea.svg",
-    "static/media/front-end-libraries-certificate.44190875.jpg": "/static/media/front-end-libraries-certificate.44190875.jpg",
+    "static/media/front-end-libraries-certificate.33dc36e1.webp": "/static/media/front-end-libraries-certificate.33dc36e1.webp",
     "static/media/gist.78c1743b.svg": "/static/media/gist.78c1743b.svg",
     "static/media/github.b4696068.svg": "/static/media/github.b4696068.svg",
-    "static/media/javascript-algorithms-and-data-structures-certificate.eaeb37ea.jpg": "/static/media/javascript-algorithms-and-data-structures-certificate.eaeb37ea.jpg",
-    "static/media/jst.jpg": "/static/media/jst.d3fc617c.jpg",
-    "static/media/noteTaker.jpg": "/static/media/noteTaker.88b5281b.jpg",
-    "static/media/notes.jpg": "/static/media/notes.b6e7a271.jpg",
-    "static/media/pxart.jpg": "/static/media/pxart.30a53f7f.jpg",
-    "static/media/rdf.jpg": "/static/media/rdf.f9a99a01.jpg",
+    "static/media/javascript-algorithms-and-data-structures-certificate.9c82b1e2.webp": "/static/media/javascript-algorithms-and-data-structures-certificate.9c82b1e2.webp",
+    "static/media/jst.webp": "/static/media/jst.7a7b9c84.webp",
+    "static/media/jump.webp": "/static/media/jump.0e60d709.webp",
+    "static/media/noteTaker.webp": "/static/media/noteTaker.0ab3f462.webp",
+    "static/media/rdf.webp": "/static/media/rdf.dd70ff7f.webp",
     "static/media/replit.a24b1542.svg": "/static/media/replit.a24b1542.svg",
-    "static/media/responsive-web-design-certificate.5f125e8e.jpg": "/static/media/responsive-web-design-certificate.5f125e8e.jpg",
+    "static/media/responsive-web-design-certificate.87643900.webp": "/static/media/responsive-web-design-certificate.87643900.webp",
     "static/media/stackoverflow.3c83c6b7.svg": "/static/media/stackoverflow.3c83c6b7.svg",
-    "static/media/wealth.jpg": "/static/media/wealth.8a1fc74c.jpg"
+    "static/media/tts.webp": "/static/media/tts.7a81c529.webp",
+    "static/media/wealth.webp": "/static/media/wealth.f6c9c08c.webp",
+    "static/media/xo.webp": "/static/media/xo.9f4cc2a3.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.2fd7dc15.js",
     "static/js/2.9685d296.chunk.js",
     "static/css/main.498a4514.chunk.css",
-    "static/js/main.fd8f5076.chunk.js"
+    "static/js/main.99e4d7a3.chunk.js"
   ]
 }
