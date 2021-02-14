@@ -68,5 +68,12 @@
     "url": "https://JSTips.alexanderbirabe.repl.co/",
     "description": "A website filled with often overlooked features of JavaScript with a great navigation system.",
     "importance": 0.8
+  }, 
+  {
+    "name": "Periodic Table",
+    "thumbnail": "periodic",
+    "url": "https://ikea-periodic-table.roverthebluedog.repl.co/",
+    "description": "A periodic table using the https://neelpatel05.pythonanywhere.com API. Built in React, scales nicely, and you can click on an element to see more info. This was a collaboration between me and a friend.",
+    "importance": 0.5
   }
 ]
