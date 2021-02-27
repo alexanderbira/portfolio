@@ -15,7 +15,7 @@ export default class Aboutme extends React.Component {
           <p id="meDescription">
             Hey, I'm Alexander,
             <br />
-            I do functional web design in my free time.
+            I do functional web development in my free time.
             <br />I code in in HTML, CSS, JS (ES6), React, React-Native, PHP,
             and Python.
           </p>
