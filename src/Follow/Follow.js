@@ -5,6 +5,7 @@ import fEL from "../Follow/certificates/front-end-libraries-certificate.webp";
 import jAADS from "../Follow/certificates/javascript-algorithms-and-data-structures-certificate.webp";
 import rWD from "../Follow/certificates/responsive-web-design-certificate.webp";
 import cCTS from "../Follow/certificates/codecademy-typescript.webp";
+import dV from "../Follow/certificates/data-visualisation-certificate.webp";
 
 import codepen from "../Follow/icons/codepen.svg";
 import freecodecamp from "../Follow/icons/freecodecamp.svg";
@@ -103,6 +104,23 @@ export default class Follow extends React.Component {
               onClick={() => this.handleFocus(0)}
               title="click to hide"
             />,
+            <img
+              src={dV}
+              alt="data-visualisation-certificate"
+              style={{
+                position: "fixed",
+                bottom: 0,
+                height: "100vh",
+                maxWidth: "100vw",
+                zIndex: 1000,
+                left: 0,
+                right: 0,
+                margin: "auto auto auto auto",
+                cursor: "pointer",
+              }}
+              onClick={() => this.handleFocus(0)}
+              title="click to hide"
+            />,
           ][this.state.focused]
         }
 
@@ -126,6 +144,11 @@ export default class Follow extends React.Component {
             src={cCTS}
             alt="typescript-certificate"
             onClick={() => this.handleFocus(4)}
+          />
+          <img
+            src={dV}
+            alt="data-visualisation-certificate"
+            onClick={() => this.handleFocus(5)}
           />
         </div>
         <div className="socials">
