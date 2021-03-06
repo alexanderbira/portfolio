@@ -9,63 +9,63 @@
   {
     "name": "Pixel Art Maker",
     "thumbnail": "pxart",
-    "url": "https://alexanderbira.github.io/Pixel-Art-Maker/",
+    "url": "https://pixel-art-maker.alexbr.dev/",
     "description": "A website to make pixel art with. You can use different grid dimensions, tools (like line, eraser, fill), colour picker (RGBAHSL, CSS input, native picker) with colour storage. You can export as a .pxart file to edit later, or a PNG.",
     "importance": 0.75
   },
   {
     "name": "Circles Animation",
     "thumbnail": "circles",
-    "url": "https://circles.alexanderbirabe.repl.co/",
+    "url": "https://circles.alexbr.dev",
     "description": "An interactive display of patterns within easing. Generate circles swaying side to side, and adjust / export the settings",
     "importance": 0.3
   },
   {
     "name": "Wealth Comparer",
     "thumbnail": "wealth",
-    "url": "https://wealth-compare.alexanderbirabe.repl.co/",
+    "url": "https://wealth-compare.alexbr.dev",
     "description": "See how long it would take you to have as much money as the richest people, with a reference timescale. You can type in a yearly salary or have it calculated. Available in English, French, and Spanish. Uses the Forbes 400 API.",
     "importance": 0.4
   },
   {
     "name": "Jump Game",
     "thumbnail": "jump",
-    "url": "https://jump.alexanderbirabe.repl.co/",
+    "url": "https://jump.alexbr.dev",
     "description": "A game where you jump over / duck under blocks to get as far as you can. You can play as different sprites. It gets progressively harder in many ways.",
     "importance": 0.4
   },
   {
     "name": "Spinning Arcs",
     "thumbnail": "arcs",
-    "url": "https://arcs.alexanderbirabe.repl.co/",
+    "url": "https://arcs.alexbr.dev",
     "description": "Generate nice animations of arcs spinning. You can control the speed, colour, size, and more.",
     "importance": 0.35
   },
   {
     "name": "Tic Tac Toe",
     "thumbnail": "xo",
-    "url": "https://ox.alexanderbirabe.repl.co/",
+    "url": "https://ox.alexbr.dev",
     "description": "Play tic tac toe either against a computer with 4 difficulty levels ranging from very easy to impossible, against a friend on the same device, or create a room and share the code so your friends can play with you - even if they're not there with you.",
     "importance": 0.7
   },
   {
     "name": "Click game",
     "thumbnail": "click",
-    "url": "https://click.alexanderbirabe.repl.co/",
+    "url": "https://click.alexbr.dev",
     "description": "Hit the spacebar just as the moving bar is in the green zone to get points.",
     "importance": 0.15
   },
   {
     "name": "Note Taker",
     "thumbnail": "noteTaker",
-    "url": "https://note-taker.alexanderbirabe.repl.co/",
+    "url": "https://note-taker.alexbr.dev",
     "description": "Type text and hit enter for it to be saved. Can also solve mathematical expressions, and store single-lettered variables for reuse. Comes with different themes.",
     "importance": 0.8
   },
   {
     "name": "JS Tips",
     "thumbnail": "jst",
-    "url": "https://JSTips.alexanderbirabe.repl.co/",
+    "url": "https://jstips.alexbr.dev",
     "description": "A website filled with often overlooked features of JavaScript with a great navigation system.",
     "importance": 0.8
   }, 
