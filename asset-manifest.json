@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.498a4514.chunk.css",
-    "main.js": "/static/js/main.d09924e8.chunk.js",
-    "main.js.map": "/static/js/main.d09924e8.chunk.js.map",
+    "main.css": "/static/css/main.85a81743.chunk.css",
+    "main.js": "/static/js/main.00419fe6.chunk.js",
+    "main.js.map": "/static/js/main.00419fe6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
     "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
     "static/js/2.9685d296.chunk.js": "/static/js/2.9685d296.chunk.js",
     "static/js/2.9685d296.chunk.js.map": "/static/js/2.9685d296.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.498a4514.chunk.css.map": "/static/css/main.498a4514.chunk.css.map",
+    "static/css/main.85a81743.chunk.css.map": "/static/css/main.85a81743.chunk.css.map",
     "static/js/2.9685d296.chunk.js.LICENSE.txt": "/static/js/2.9685d296.chunk.js.LICENSE.txt",
     "static/media/arcs.webp": "/static/media/arcs.8163329e.webp",
     "static/media/circles.webp": "/static/media/circles.fcce5a23.webp",
@@ -16,6 +16,7 @@
     "static/media/codecademy-typescript.8db82a73.webp": "/static/media/codecademy-typescript.8db82a73.webp",
     "static/media/codepen.02878408.svg": "/static/media/codepen.02878408.svg",
     "static/media/data-visualisation-certificate.cd26fd2c.webp": "/static/media/data-visualisation-certificate.cd26fd2c.webp",
+    "static/media/email.e500d95a.svg": "/static/media/email.e500d95a.svg",
     "static/media/freecodecamp.4c409bea.svg": "/static/media/freecodecamp.4c409bea.svg",
     "static/media/front-end-libraries-certificate.33dc36e1.webp": "/static/media/front-end-libraries-certificate.33dc36e1.webp",
     "static/media/gist.78c1743b.svg": "/static/media/gist.78c1743b.svg",
@@ -37,7 +38,7 @@
   "entrypoints": [
     "static/js/runtime-main.2fd7dc15.js",
     "static/js/2.9685d296.chunk.js",
-    "static/css/main.498a4514.chunk.css",
-    "static/js/main.d09924e8.chunk.js"
+    "static/css/main.85a81743.chunk.css",
+    "static/js/main.00419fe6.chunk.js"
   ]
 }
