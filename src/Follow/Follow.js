@@ -7,6 +7,7 @@ import rWD from "../Follow/certificates/responsive-web-design-certificate.webp";
 import cCTS from "../Follow/certificates/codecademy-typescript.webp";
 import dV from "../Follow/certificates/data-visualisation-certificate.webp";
 
+import email from "../Follow/icons/email.svg";
 import codepen from "../Follow/icons/codepen.svg";
 import freecodecamp from "../Follow/icons/freecodecamp.svg";
 import github from "../Follow/icons/github.svg";
@@ -152,6 +153,13 @@ export default class Follow extends React.Component {
           />
         </div>
         <div className="socials">
+          <a
+            href="mailto:mail@alexbr.dev"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={email} className="socialIcon" alt="mail@alexbr.dev" />
+          </a>
           <a
             href="https://repl.it/@AlexanderBirabe"
             target="_blank"

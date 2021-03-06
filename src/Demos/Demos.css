@@ -16,9 +16,8 @@ main p {
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  background: rgb(187, 42, 42);
-  color: white;
-  transition-duration: 0.3s;
+  border: solid black 2px;
+  background: none;
   font-weight: 900;
   font-size: 3vmin;
   text-align: center;
@@ -26,12 +25,8 @@ main p {
 }
 
 .demoNav:hover {
-  background: gray;
-  background: rgb(153, 37, 37);
-}
-
-.demoNav:active {
-  background: rgb(118, 24, 24);
+  background: linear-gradient(135deg, #E90DCA, #1536F1);
+  color: white;
 }
 
 nav {
