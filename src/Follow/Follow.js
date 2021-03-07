@@ -125,7 +125,7 @@ export default class Follow extends React.Component {
           ][this.state.focused]
         }
 
-        <div className="certificates">
+        <section className="certificates">
           <img
             src={fEL}
             alt="front-end-libraries-certificate"
@@ -151,7 +151,7 @@ export default class Follow extends React.Component {
             alt="data-visualisation-certificate"
             onClick={() => this.handleFocus(5)}
           />
-        </div>
+        </section>
         <div className="socials">
           <a
             href="mailto:mail@alexbr.dev"

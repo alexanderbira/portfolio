@@ -10,42 +10,13 @@ main p {
   text-align: center;
 }
 
-.demoNav {
-  width: 10vmin;
-  height: 10vmin;
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-  border: solid black 2px;
-  background: none;
-  font-weight: 900;
-  font-size: 3vmin;
-  text-align: center;
-  outline: none;
-}
-
-.demoNav:hover {
-  background: linear-gradient(135deg, #E90DCA, #1536F1);
-  color: white;
-}
-
-nav {
+.demos {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  margin-top: 50px;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-.navButton {
-  margin: 5px;
-  width: 20px;
-  height: 20px;
-  border: solid black 2px;
-  border-radius: 50%;
-  cursor: pointer;
-  outline: none;
-  font-size: 0;
-  transition-duration: 0.5s;
+  width: calc(100vw - min(200px, 20vw));
+  margin-left: min(100px, 10vw);
+  margin-right: min(100px, 10vw);
+  padding: 30px;
+  overflow-x: auto;
+  overflow-y: visible;
+  padding: 40px;
 }
