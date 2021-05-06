@@ -72,8 +72,15 @@
   {
     "name": "Periodic Table",
     "thumbnail": "periodic",
-    "url": "https://ikea-periodic-table.roverthebluedog.repl.co/",
+    "url": "https://ikea-periodic-table.roverthebluedog.repl.co",
     "description": "A periodic table using the https://neelpatel05.pythonanywhere.com API. Built in React, scales nicely, and you can click on an element to see more info. This was a collaboration between me and a friend.",
     "importance": 0.5
+  },
+  {
+    "name": "Balance Tracker",
+    "thumbnail": "profit",
+    "url": "https://profit.alexbr.dev",
+    "description": "A site where you can create different portfolios and update your balance for each portfolio. You can see the new balance, time updated, net increase, and percentage increase. It generates graphs using D3 to show you your balance over time.",
+    "importance": 0.15
   }
 ]
